@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geeky Label</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-81JZ8bEcG8_oW7HIVj1im6xsKcan82c"></script>
+    <script type="text/javascript" src="map.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="scroll.js"></script>
+</head>
+<body>
+<div class="landing" style="background-color: #d83454;">
+    <img class="brand" src="./brand.svg" style="max-height: 150px;display: block;" alt="">
+    <div class="para">
+        <p>A team of self confessed geeks who are all about</p>
+        <p>Great digital design</p>
+    </div>
+    <a href="#design"><img class="button" src="Resources/Button.png" style="max-height: 50px" alt=""></a>
+
+</div>
+<div id="design" class="design" style="background-color: #f1f2f2;">
+    <img class="main" src="Resources/design.svg"style="max-height: 250px" alt="">
+    <span class="para">
+        <p style="color: #080203">Some agencies love <span style="color: #d83454;">design</span>, but don't know how to build</p>
+    </span>
+    <a href="#build"><img class="button" src="Resources/Button_Red.png" style="max-height: 50px" alt=""></a>
+</div>
+<div id="build" style="background-color: #f1f2f2;">
+    <img class="main" src="Resources/build.png" style="max-height: 250px" alt="">
+    <span class="para">
+        <p style="color: #080203">Some agencies know how to <span style="color: #d83454;">build</span> but can’t do design</p>
+    </span>
+    <a href="#both"><img class="button" src="Resources/Button_Red.png" style="max-height: 50px" alt=""></a>
+</div>
+<div id="both" style="background-color: #f1f2f2;">
+    <img class="main" src="Resources/both.png" style="max-height: 250px;" alt="">
+    <span class="para">
+        <p style="color: #080203">We love <span style="color: #d83454;">both</span></p>
+    </span>
+    <a href="#service-wrapper"><img class="button" src="Resources/Button_Red.png" style="max-height: 50px" alt=""></a>
+</div>
+<div id="service-wrapper" class="wrapping">
+  <h1>Services</h1>
+    <div class="services">
+        <span>
+            <img class="service-icons" src="Resources/Icons/Web.png" alt="">
+            <p>Web Development</p>
+        </span>
+        <span>
+            <img class="service-icons" src="Resources/Icons/design.png" alt="">
+            <p>Design</p>
+        </span>
+        <span>
+            <img class="service-icons" src="Resources/Icons/Aa.png" alt="">
+            <p>Branding</p>
+        </span>
+        <span>
+            <img class="service-icons" src="Resources/Icons/ux.png" alt="">
+            <p>UX Research</p>
+        </span>
+    </div>
+    <a href="#client-wrapper"><img class="button" src="Resources/Button_Black.png" style="max-height: 50px" alt=""></a>
+</div>
+<div id="client-wrapper" class="wrapping" style="background-color: #f1f2f2;">
+    <h1>Clients</h1>
+    <div class="services" id="client">
+        <span class="nav-handler">
+            <
+        </span>
+        <span>
+            <img class="service-icons" src="Resources/Clients/tpg.png" alt="">
+        </span>
+        <span>
+            <img class="service-icons" src="Resources/Clients/Vegan.png" alt="">
+        </span>
+        <span>
+            <img class="service-icons" src="Resources/Clients/PSHE.png" alt="">
+        </span>
+        <span class="nav-handler">
+            >
+        </span>
+    </div>
+    <a href="#map-wrapper"><img class="button" src="Resources/Button_Black.png" style="max-height: 50px" alt=""></a>
+</div>
+<div id="map-wrapper" class="wrapping" style="background-color: #f1f2f2;">
+    <h1>How to find us</h1>
+    <div id="map"style="background-color:transparent;"></div>
+    <a href="#form-wrapper"><img src="Resources/Button_Red.png" alt="" class="button" style="max-height: 50px" ></a>
+</div>
+
+<div id="form-wrapper" class="wrapping" style="background-color: #f1f2f2;">
+    <h1>Contact</h1>
+        <form class="form" action="">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <textarea  placeholder="Message"></textarea>
+            <button>Send Message !</button>
+            <p style="color: black;">Or phone on: 01923 220121</p>
+        </form>
+</div>
+</body>
+</html>
